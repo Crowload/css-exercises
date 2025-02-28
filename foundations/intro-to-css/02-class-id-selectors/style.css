@@ -1,1 +1,7 @@
-p { background-color: pink; font Verdana }
+p { background-color: pink; @font-face {
+    font-family: 'verdana', 'Dejavu Sans', 'sans-serif'
+}}
+.number3 { font-size: 28px;
+}
+#number2 {color: blue; font-size: 36px;}
+.number4 {background-color: lightgreen;font-size: 24px;font-weight: bold;}
